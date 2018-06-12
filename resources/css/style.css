@@ -9,7 +9,6 @@ body {
   font-family: "Georgia", sans-serif;
   font-size: 15px;
   color: #000000;
-  min-width: 0;
 }
 
 a {
@@ -93,22 +92,42 @@ header nav {
   margin-right: 30px;
 }
 
-.column.large {
-  width: 630px;
-  display: flex;
-  flex-direction: column;
+/* left news column */
+
+.leadstory .image-content h1 {
+  background-image: url("../images/img-story-main.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
 }
 
-/* left news column */
+.image-content {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+}
 
 .story-earth {
   background-image: url("../images/img-story-2.png");
   height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .story-camera {
   background-image: url("../images/img-story-3.png");
   height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 /* middle news column */
@@ -129,8 +148,4 @@ header nav {
   display: flex;
   flex-direction: column;
   width: 630px;
-}
-
-h1 {
-  color: #000000;
 }
